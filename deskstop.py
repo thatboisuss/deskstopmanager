@@ -32,12 +32,12 @@ def clean_folder(folder_path):
                
                 
         
-
+your_computer_username = "" #put in the computer username!!!!!!!!!!!!!!!!!!!!!
 
 
 if __name__ == "__main__":
     print("Deskstop cleaner script")
-    folder_path = '/Users/aifan/Downloads'
+    folder_path = f'/Users/{your_computer_username}/Desktop'
     if os.path.isdir(folder_path):
         clean_folder(folder_path)
         print("Cleaning complete")
